@@ -3,10 +3,12 @@ class Solution {
         // s.sort();
         // t.sort();
         char[] S=s.toCharArray();
-        Arrays.sort(S);
+        
         char[] T=t.toCharArray();
-        Arrays.sort(T);
         if(S.length!=T.length) return false;
+        Arrays.sort(S);
+        Arrays.sort(T);
+        
         // for(int i=0;i<s.length();i++){
         //     if(S[i]!=T[i]){
         //         return false;
