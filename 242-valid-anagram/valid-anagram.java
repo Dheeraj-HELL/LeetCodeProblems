@@ -22,6 +22,7 @@ class Solution {
         while(i<S.length ){
             if(S[i]!=T[i]){
                 ans=false;
+                break;
             }
             i++;
             
